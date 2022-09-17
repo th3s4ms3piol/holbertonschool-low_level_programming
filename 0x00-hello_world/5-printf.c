@@ -1,4 +1,4 @@
-gcc hello.c -o hi
+gcc48 -c hello.c -o
 #include <stdio.h>
 
 /**
