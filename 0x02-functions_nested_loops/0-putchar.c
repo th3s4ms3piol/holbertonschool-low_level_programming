@@ -4,7 +4,7 @@
  *
  * Return 0
  */
-int main(void_)
+int main
 {
 	char *sh = "main";
 
