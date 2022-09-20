@@ -1,21 +1,21 @@
-#include "main.h, _putchar"
+#include "main.h"
 /**
- * main - prints the string "_putchar" from a character array.
- * Return: 0 on success.
+ * main - Entry
+ *
+ * Return 0
  */
-int main(void)
-
+int main(void_)
 {
-	char c[] = "_putchar";
+	char *sh = "main";
 
-	int i;
-
-	for (i = 0; i < 9; i++)
-
+	while (*sh)
 	{
-		_putchar(c[i]);
+		_putchar(*sh);
+		sh++;
+
 	}
-		_putchar('\n');
+	_putchar('\n');
 
 	return (0);
+
 }
