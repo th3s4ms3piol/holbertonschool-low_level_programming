@@ -15,8 +15,7 @@ int main(void)
 			if (num < 57)
 			{
 												
-				putchar(',');
-			
+				putchar(',');	
 				putchar(' ');
 			
 			}
@@ -24,7 +23,5 @@ int main(void)
 
 	}
 		putchar('\n');
-
 		return (0);
-
 }
