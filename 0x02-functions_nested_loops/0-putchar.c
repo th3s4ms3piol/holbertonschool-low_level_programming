@@ -1,10 +1,10 @@
-#include "main.c"
+#include "main.h"
 /**
  * main - Entry
  *
  * Return 0
  */
-int main(void)
+void main(void)
 {
 	char *sh = "main.c";
 
