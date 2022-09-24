@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * print_sign - prin that sign function
+ *print_sign - print that sign function
  *@n: #put
  *Return: 1 print 
  */
-
 int print_sign(int n)
 {
 	if (n > 0)
