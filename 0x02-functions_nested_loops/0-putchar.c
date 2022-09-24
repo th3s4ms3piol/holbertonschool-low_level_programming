@@ -1,12 +1,19 @@
-#include <main.h>
-
+#include "main.h"
 /**
+ * main - Entry point
  *
- * Rutern: 0
- *
+ * Return: Always 0
  */
-
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char *sh = "main.h";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
 }
