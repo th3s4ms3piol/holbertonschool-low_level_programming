@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ *_islower - low case
+ *
+ *@c: singular input
+ *
+ * Return: 1 if aint c > = 0
+ *
+ */
+int _islower(int c)
+{
+	if (c >= 'a' && c c <= 'z')
+		return (1);
+	else
+		return (0);
+}
