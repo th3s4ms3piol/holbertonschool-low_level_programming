@@ -1,5 +1,6 @@
 #ifndef main.c_file
 #define main.c_file
+#include <main.c>
 
 int print_putchar
 void print_alphabet(void);
