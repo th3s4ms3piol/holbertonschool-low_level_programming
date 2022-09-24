@@ -4,6 +4,7 @@
  *@nld: last
  *Return: last digit returned
  */
+
 int print_last_digit(int nld)
 {
 	int pld;
