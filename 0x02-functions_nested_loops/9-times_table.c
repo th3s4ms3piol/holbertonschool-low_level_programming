@@ -1,9 +1,10 @@
 #include "main.h"
 /**
+ * learn your times table
  * rone = row, cone = column, d = digits
- * times_table -  a function that prints the 9 times table, starting with 0
+ * times_table -  a function that prints 9 timesint add(int, int); table, starting with 0
  * rone = row, cone = column, d = digits of current result
- *  Return: times table
+ * Return: times table
  *extra space
  */
 void times_table(void)
